@@ -1,0 +1,294 @@
+
+flow5 v7.57
+28.06.2026  14:49:03
+Reading foil .dat files
+   added foil: NACA 2415
+   added foil: NACA 0009
+
+Making foil analysis list
+No foil analysis requested
+
+
+Available foils:
+   NACA 0009
+   NACA 2415
+
+
+
+-----Starting plane analyses-----
+
+Adding planes from the .xml files
+   added the plane: GA4-01 from file ga4_cand_naca2415.xml
+
+
+Adding the plane analyses from the xml files
+   the analysis ga4_polar_vlm2 has been added for GA4-01
+
+Making the analysis pairs (plane, analysis)
+   added analysis for (GA4-01, ga4_polar_vlm2)
+   Made 1 valid analysis pairs (plane, polar) to run
+
+Launching plane analysis: GA4-01 / ga4_polar_vlm2
+Initializing task
+
+GA4-01
+ga4_polar_vlm2
+
+Checking plane and polar data
+   ...done
+
+ga4_polar_vlm2
+Type 1 - Fixed speed polar
+
+ρ =     1.225 kg/m³
+ν =   1.5e-05 m²/s
+
+RFF         = 10
+Core radius = 1e-06 m
+
+Using 4 threads
+
+Linear system calculations in floating point double precision
+
+Using S. Nintcheu-Fata's method for off-plane integrals
+
+Initializing the quad analysis
+Setting flap positions
+
+Counted 409 elements
+Matrix size = 409
+
+Allocating result arrays
+
+Solving the problem... 
+
+   Making the unit RHS vectors...       done in 0.000 s
+   Making the influence matrix...       done in 0.002 s
+   LAPACK - LU factorization...         done in 0.000 s
+   Back-substituting RHS...             done in 0.000 s
+   Making unit panel velocities...      done
+
+   Calculating 23 operating points
+     α=-6°, β=0°, φ=0°, V∞=69.45 m/s
+       Calculating vortex circulations...
+       Calculating far field forces...
+       Calculating on-body pressure coefficients...
+       Calculating plane
+             ...done.
+          Skipping derivatives and eigenthings
+          Done operating point
+
+     α=-5°, β=0°, φ=0°, V∞=69.45 m/s
+       Calculating vortex circulations...
+       Calculating far field forces...
+       Calculating on-body pressure coefficients...
+       Calculating plane
+             ...done.
+          Skipping derivatives and eigenthings
+          Done operating point
+
+     α=-4°, β=0°, φ=0°, V∞=69.45 m/s
+       Calculating vortex circulations...
+       Calculating far field forces...
+       Calculating on-body pressure coefficients...
+       Calculating plane
+             ...done.
+          Skipping derivatives and eigenthings
+          Done operating point
+
+     α=-3°, β=0°, φ=0°, V∞=69.45 m/s
+       Calculating vortex circulations...
+       Calculating far field forces...
+       Calculating on-body pressure coefficients...
+       Calculating plane
+             ...done.
+          Skipping derivatives and eigenthings
+          Done operating point
+
+     α=-2°, β=0°, φ=0°, V∞=69.45 m/s
+       Calculating vortex circulations...
+       Calculating far field forces...
+       Calculating on-body pressure coefficients...
+       Calculating plane
+             ...done.
+          Skipping derivatives and eigenthings
+          Done operating point
+
+     α=-1°, β=0°, φ=0°, V∞=69.45 m/s
+       Calculating vortex circulations...
+       Calculating far field forces...
+       Calculating on-body pressure coefficients...
+       Calculating plane
+             ...done.
+          Skipping derivatives and eigenthings
+          Done operating point
+
+     α=0°, β=0°, φ=0°, V∞=69.45 m/s
+       Calculating vortex circulations...
+       Calculating far field forces...
+       Calculating on-body pressure coefficients...
+       Calculating plane
+             ...done.
+          Skipping derivatives and eigenthings
+          Done operating point
+
+     α=1°, β=0°, φ=0°, V∞=69.45 m/s
+       Calculating vortex circulations...
+       Calculating far field forces...
+       Calculating on-body pressure coefficients...
+       Calculating plane
+             ...done.
+          Skipping derivatives and eigenthings
+          Done operating point
+
+     α=2°, β=0°, φ=0°, V∞=69.45 m/s
+       Calculating vortex circulations...
+       Calculating far field forces...
+       Calculating on-body pressure coefficients...
+       Calculating plane
+             ...done.
+          Skipping derivatives and eigenthings
+          Done operating point
+
+     α=3°, β=0°, φ=0°, V∞=69.45 m/s
+       Calculating vortex circulations...
+       Calculating far field forces...
+       Calculating on-body pressure coefficients...
+       Calculating plane
+             ...done.
+          Skipping derivatives and eigenthings
+          Done operating point
+
+     α=4°, β=0°, φ=0°, V∞=69.45 m/s
+       Calculating vortex circulations...
+       Calculating far field forces...
+       Calculating on-body pressure coefficients...
+       Calculating plane
+             ...done.
+          Skipping derivatives and eigenthings
+          Done operating point
+
+     α=5°, β=0°, φ=0°, V∞=69.45 m/s
+       Calculating vortex circulations...
+       Calculating far field forces...
+       Calculating on-body pressure coefficients...
+       Calculating plane
+             ...done.
+          Skipping derivatives and eigenthings
+          Done operating point
+
+     α=6°, β=0°, φ=0°, V∞=69.45 m/s
+       Calculating vortex circulations...
+       Calculating far field forces...
+       Calculating on-body pressure coefficients...
+       Calculating plane
+             ...done.
+          Skipping derivatives and eigenthings
+          Done operating point
+
+     α=7°, β=0°, φ=0°, V∞=69.45 m/s
+       Calculating vortex circulations...
+       Calculating far field forces...
+       Calculating on-body pressure coefficients...
+       Calculating plane
+             ...done.
+          Skipping derivatives and eigenthings
+          Done operating point
+
+     α=8°, β=0°, φ=0°, V∞=69.45 m/s
+       Calculating vortex circulations...
+       Calculating far field forces...
+       Calculating on-body pressure coefficients...
+       Calculating plane
+             ...done.
+          Skipping derivatives and eigenthings
+          Done operating point
+
+     α=9°, β=0°, φ=0°, V∞=69.45 m/s
+       Calculating vortex circulations...
+       Calculating far field forces...
+       Calculating on-body pressure coefficients...
+       Calculating plane
+             ...done.
+          Skipping derivatives and eigenthings
+          Done operating point
+
+     α=10°, β=0°, φ=0°, V∞=69.45 m/s
+       Calculating vortex circulations...
+       Calculating far field forces...
+       Calculating on-body pressure coefficients...
+       Calculating plane
+             ...done.
+          Skipping derivatives and eigenthings
+          Done operating point
+
+     α=11°, β=0°, φ=0°, V∞=69.45 m/s
+       Calculating vortex circulations...
+       Calculating far field forces...
+       Calculating on-body pressure coefficients...
+       Calculating plane
+             ...done.
+          Skipping derivatives and eigenthings
+          Done operating point
+
+     α=12°, β=0°, φ=0°, V∞=69.45 m/s
+       Calculating vortex circulations...
+       Calculating far field forces...
+       Calculating on-body pressure coefficients...
+       Calculating plane
+             ...done.
+          Skipping derivatives and eigenthings
+          Done operating point
+
+     α=13°, β=0°, φ=0°, V∞=69.45 m/s
+       Calculating vortex circulations...
+       Calculating far field forces...
+       Calculating on-body pressure coefficients...
+       Calculating plane
+             ...done.
+          Skipping derivatives and eigenthings
+          Done operating point
+
+     α=14°, β=0°, φ=0°, V∞=69.45 m/s
+       Calculating vortex circulations...
+       Calculating far field forces...
+       Calculating on-body pressure coefficients...
+       Calculating plane
+             ...done.
+          Skipping derivatives and eigenthings
+          Done operating point
+
+     α=15°, β=0°, φ=0°, V∞=69.45 m/s
+       Calculating vortex circulations...
+       Calculating far field forces...
+       Calculating on-body pressure coefficients...
+       Calculating plane
+             ...done.
+          Skipping derivatives and eigenthings
+          Done operating point
+
+     α=16°, β=0°, φ=0°, V∞=69.45 m/s
+       Calculating vortex circulations...
+       Calculating far field forces...
+       Calculating on-body pressure coefficients...
+       Calculating plane
+             ...done.
+          Skipping derivatives and eigenthings
+
+Panel analysis completed successfully
+
+_____Plane analyses completed_____
+
+
+
+-----Starting boat analyses-----
+
+No xml Boat files to load
+
+Making the analysis pairs (boat, analysis)
+
+Made 0 valid analysis pairs (boat, polar) to run
+
+_____ Boat analyses completed_____
+
+

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE XFL_SCRIPT>
+<xflscript version="1.0">
+    <Metadata>
+        <Make_project_file>false</Make_project_file>
+        <Polar_text_output_format>CSV</Polar_text_output_format>
+        <Directories>
+            <output_dir>/Users/kaanoktem/Flow5/output</output_dir>
+            <plane_definition_xml_dir>analysis_xml</plane_definition_xml_dir>
+            <plane_analysis_xml_dir>analysis_xml</plane_analysis_xml_dir>
+            <foil_files_dir>/Users/kaanoktem/Flow5/foils</foil_files_dir>
+            <recursive_scan>true</recursive_scan>
+        </Directories>
+        <Double_Precision>true</Double_Precision>
+    </Metadata>
+    <Plane_Analysis>
+        <Plane_Analysis_Output>
+            <make_oppoints>false</make_oppoints>
+            <make_polars_text_file>true</make_polars_text_file>
+        </Plane_Analysis_Output>
+        <Foil_Dat_Files>
+            <Foil_File_Name>naca4412.dat</Foil_File_Name>
+            <Foil_File_Name>naca0009.dat</Foil_File_Name>
+        </Foil_Dat_Files>
+        <Plane_Definition_Files>
+            <Process_All_Files>false</Process_All_Files>
+            <Plane_File_Name>ga4_quads_nobody_plane.xml</Plane_File_Name>
+        </Plane_Definition_Files>
+        <Plane_Analysis_Files>
+            <Process_All_Files>false</Process_All_Files>
+            <Analysis_File_Name>ga4_panel_polar.xml</Analysis_File_Name>
+        </Plane_Analysis_Files>
+        <Plane_Analysis_Data>
+            <T12_Range>-4, 14, 1</T12_Range>
+        </Plane_Analysis_Data>
+    </Plane_Analysis>
+</xflscript>

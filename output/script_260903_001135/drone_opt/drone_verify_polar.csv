@@ -1,0 +1,34 @@
+Type 1: Fixed speed
+V∞ = 20m/s
+Quads
+Wings as thick surfaces
+B.C.: Dirichlet
+Lift & drag: in the far field plane
+Viscous drag: XFoil on the fly
+   NCrit  = 9
+   XTrTop = 100% chord
+   XTrBot = 100% chord
+Viscous loop: disabled
+Ref. dimensions = Custom
+   Area  =    0.245 m²
+   Span  =    1.716 m
+   Chord =    0.143 m
+Contribution of wing tips to moments: ignored
+Fluid properties:
+   ρ =     1.225 kg/m³
+   ν =   1.5e-05 m²/s
+Inertia:
+   Using plane inertia
+   Mass =  3.000 kg
+   CoG = (0.027, 0.000, 0.000)m
+Flat panel wake:
+   Nb. of wake panels = 5
+   Length             = 30 x MAC
+   Progression factor =    1.10
+Nbr. of data points = 0
+drone_opt
+drone_verify_polar
+Freestream speed = 20.000 m/s
+
+
+ Ctrl        α (°)      β (°)      φ (°)      CL           CD           CD_viscous   CD_induced   CY           Cm           Cm_viscous   Cm_pressure  Cl           Cn           Cn_viscous   Cn_pressure  CL/CD        CL^(3/2)/CD  1/sqrt(CL)   Lift (N)     Drag (N)     Fx_FF_wind (N)  Fy_FF_wind (N)  Fz_FF_wind (N)  Fx_sum_wind (N)  Fy_sum_wind (N)  Fz_sum_wind (N)  Extra drag (N)  Fuse drag (N)  Cf_Fuse      Vx (m/s)     Vz (m/s)     V (m/s)      Gamma        L (N.m)      M (N.m)      N (N.m)      CPx (m)      CPy (m)      CPz (m)      BM (N.m)     m.g.Vz (W)   Drag x V (W)  Efficiency   XCp.Cl       XNP (m)      Phugoid Freq. (Hz)  Phugoid Damping  Short Period Freq. (Hz)  Short Period Damping Ratio  Dutch Roll Freq. (Hz)  Dutch Roll Damping  Roll Damping  Spiral Damping  Mass (kg)    CoG_x (m)    CoG_z (m)    

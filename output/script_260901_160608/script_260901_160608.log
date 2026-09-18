@@ -1,0 +1,495 @@
+
+flow5 v7.57
+01.09.2026  16:06:08
+Reading foil .dat files
+   added foil: E387
+   added foil: NACA 0009
+
+Making foil analysis list
+No foil analysis requested
+
+
+Available foils:
+   E387
+   NACA 0009
+
+
+
+-----Starting plane analyses-----
+
+Adding planes from the .xml files
+   added the plane: drone_opt from file drone_plane.xml
+
+
+Adding the plane analyses from the xml files
+   the analysis drone_polar has been added for drone_opt
+
+Making the analysis pairs (plane, analysis)
+   added analysis for (drone_opt, drone_polar)
+   Made 1 valid analysis pairs (plane, polar) to run
+
+Launching plane analysis: drone_opt / drone_polar
+Initializing task
+
+drone_opt
+drone_polar
+
+Checking plane and polar data
+   ...done
+
+drone_polar
+Type 1 - Fixed speed polar
+
+ρ =     1.225 kg/m³
+ν =   1.5e-05 m²/s
+
+RFF         = 10
+Core radius = 1e-06 m
+
+Using 4 threads
+
+Linear system calculations in floating point double precision
+
+Using S. Nintcheu-Fata's method for off-plane integrals
+
+Initializing the triangle analysis
+Checking element sizes
+   ...done
+
+Setting flap positions
+
+Connecting triangular panels...   done in 0.002 s
+Counted 498 elements
+Matrix size = 498
+
+Allocating result arrays
+
+Solving the problem... 
+
+   Making the unit RHS vectors...       done in 0.000 s
+   Making the influence matrix...       done in 0.028 s
+   Adding the wake's contribution...    done in 0.003 s
+   LAPACK - LU factorization...         done in 0.001 s
+   Back-substituting RHS...             done in 0.000 s
+   Making unit panel velocities...      done
+
+   Calculating 20 operating points
+     α=-5°, β=0°, φ=0°, V∞=20 m/s
+       Creating source strengths...
+       Calculating doublet strengths...
+       Calculating far field forces...
+       Calculating on-body pressure coefficients...
+       Calculating plane
+          Calculating XFoil viscous drag on the fly...
+             Processing Main Wing: 2 surfaces
+                 ...done surface 0
+                 ...done surface 1 - OTF failures:
+                     span pos.     0.293 m, Cl=  0.06528, Re= 517673
+                     span pos.     0.629 m, Cl=  0.04560, Re= 433047
+                     span pos.     0.805 m, Cl=  0.03004, Re= 388947
+                     span pos.     1.196 m, Cl= -0.00683, Re= 290662
+
+          Error generating the operating point... discarding
+
+     α=-4°, β=0°, φ=0°, V∞=20 m/s
+       Creating source strengths...
+       Calculating doublet strengths...
+       Calculating far field forces...
+       Calculating on-body pressure coefficients...
+       Calculating plane
+          Calculating XFoil viscous drag on the fly...
+             Processing Main Wing: 2 surfaces
+                 ...done surface 0
+                 ...done surface 1
+             Processing Elevator: 2 surfaces
+                 ...done surface 0
+                 ...done surface 1
+             Processing Fin: 1 surfaces
+                 ...done surface 0
+             ...done.
+          Skipping derivatives and eigenthings
+          Done operating point
+
+     α=-3°, β=0°, φ=0°, V∞=20 m/s
+       Creating source strengths...
+       Calculating doublet strengths...
+       Calculating far field forces...
+       Calculating on-body pressure coefficients...
+       Calculating plane
+          Calculating XFoil viscous drag on the fly...
+             Processing Main Wing: 2 surfaces
+                 ...done surface 0
+                 ...done surface 1
+             Processing Elevator: 2 surfaces
+                 ...done surface 1
+                 ...done surface 0
+             Processing Fin: 1 surfaces
+                 ...done surface 0
+             ...done.
+          Skipping derivatives and eigenthings
+          Done operating point
+
+     α=-2°, β=0°, φ=0°, V∞=20 m/s
+       Creating source strengths...
+       Calculating doublet strengths...
+       Calculating far field forces...
+       Calculating on-body pressure coefficients...
+       Calculating plane
+          Calculating XFoil viscous drag on the fly...
+             Processing Main Wing: 2 surfaces
+                 ...done surface 0
+                 ...done surface 1
+             Processing Elevator: 2 surfaces
+                 ...done surface 0
+                 ...done surface 1
+             Processing Fin: 1 surfaces
+                 ...done surface 0
+             ...done.
+          Skipping derivatives and eigenthings
+          Done operating point
+
+     α=-1°, β=0°, φ=0°, V∞=20 m/s
+       Creating source strengths...
+       Calculating doublet strengths...
+       Calculating far field forces...
+       Calculating on-body pressure coefficients...
+       Calculating plane
+          Calculating XFoil viscous drag on the fly...
+             Processing Main Wing: 2 surfaces
+                 ...done surface 1
+                 ...done surface 0
+             Processing Elevator: 2 surfaces
+                 ...done surface 0
+                 ...done surface 1
+             Processing Fin: 1 surfaces
+                 ...done surface 0
+             ...done.
+          Skipping derivatives and eigenthings
+          Done operating point
+
+     α=0°, β=0°, φ=0°, V∞=20 m/s
+       Creating source strengths...
+       Calculating doublet strengths...
+       Calculating far field forces...
+       Calculating on-body pressure coefficients...
+       Calculating plane
+          Calculating XFoil viscous drag on the fly...
+             Processing Main Wing: 2 surfaces
+                 ...done surface 1
+                 ...done surface 0
+             Processing Elevator: 2 surfaces
+                 ...done surface 0
+                 ...done surface 1
+             Processing Fin: 1 surfaces
+                 ...done surface 0
+             ...done.
+          Skipping derivatives and eigenthings
+          Done operating point
+
+     α=1°, β=0°, φ=0°, V∞=20 m/s
+       Creating source strengths...
+       Calculating doublet strengths...
+       Calculating far field forces...
+       Calculating on-body pressure coefficients...
+       Calculating plane
+          Calculating XFoil viscous drag on the fly...
+             Processing Main Wing: 2 surfaces
+                 ...done surface 0
+                 ...done surface 1
+             Processing Elevator: 2 surfaces
+                 ...done surface 1
+                 ...done surface 0
+             Processing Fin: 1 surfaces
+                 ...done surface 0
+             ...done.
+          Skipping derivatives and eigenthings
+          Done operating point
+
+     α=2°, β=0°, φ=0°, V∞=20 m/s
+       Creating source strengths...
+       Calculating doublet strengths...
+       Calculating far field forces...
+       Calculating on-body pressure coefficients...
+       Calculating plane
+          Calculating XFoil viscous drag on the fly...
+             Processing Main Wing: 2 surfaces
+                 ...done surface 1
+                 ...done surface 0
+             Processing Elevator: 2 surfaces
+                 ...done surface 0
+                 ...done surface 1
+             Processing Fin: 1 surfaces
+                 ...done surface 0
+             ...done.
+          Skipping derivatives and eigenthings
+          Done operating point
+
+     α=3°, β=0°, φ=0°, V∞=20 m/s
+       Creating source strengths...
+       Calculating doublet strengths...
+       Calculating far field forces...
+       Calculating on-body pressure coefficients...
+       Calculating plane
+          Calculating XFoil viscous drag on the fly...
+             Processing Main Wing: 2 surfaces
+                 ...done surface 0
+                 ...done surface 1
+             Processing Elevator: 2 surfaces
+                 ...done surface 1
+                 ...done surface 0
+             Processing Fin: 1 surfaces
+                 ...done surface 0
+             ...done.
+          Skipping derivatives and eigenthings
+          Done operating point
+
+     α=4°, β=0°, φ=0°, V∞=20 m/s
+       Creating source strengths...
+       Calculating doublet strengths...
+       Calculating far field forces...
+       Calculating on-body pressure coefficients...
+       Calculating plane
+          Calculating XFoil viscous drag on the fly...
+             Processing Main Wing: 2 surfaces
+                 ...done surface 0
+                 ...done surface 1
+             Processing Elevator: 2 surfaces
+                 ...done surface 1
+                 ...done surface 0
+             Processing Fin: 1 surfaces
+                 ...done surface 0
+             ...done.
+          Skipping derivatives and eigenthings
+          Done operating point
+
+     α=5°, β=0°, φ=0°, V∞=20 m/s
+       Creating source strengths...
+       Calculating doublet strengths...
+       Calculating far field forces...
+       Calculating on-body pressure coefficients...
+       Calculating plane
+          Calculating XFoil viscous drag on the fly...
+             Processing Main Wing: 2 surfaces
+                 ...done surface 0
+                 ...done surface 1
+             Processing Elevator: 2 surfaces
+                 ...done surface 1
+                 ...done surface 0
+             Processing Fin: 1 surfaces
+                 ...done surface 0
+             ...done.
+          Skipping derivatives and eigenthings
+          Done operating point
+
+     α=6°, β=0°, φ=0°, V∞=20 m/s
+       Creating source strengths...
+       Calculating doublet strengths...
+       Calculating far field forces...
+       Calculating on-body pressure coefficients...
+       Calculating plane
+          Calculating XFoil viscous drag on the fly...
+             Processing Main Wing: 2 surfaces
+                 ...done surface 0
+                 ...done surface 1
+             Processing Elevator: 2 surfaces
+                 ...done surface 1
+                 ...done surface 0
+             Processing Fin: 1 surfaces
+                 ...done surface 0
+             ...done.
+          Skipping derivatives and eigenthings
+          Done operating point
+
+     α=7°, β=0°, φ=0°, V∞=20 m/s
+       Creating source strengths...
+       Calculating doublet strengths...
+       Calculating far field forces...
+       Calculating on-body pressure coefficients...
+       Calculating plane
+          Calculating XFoil viscous drag on the fly...
+             Processing Main Wing: 2 surfaces
+                 ...done surface 0
+                 ...done surface 1
+             Processing Elevator: 2 surfaces
+                 ...done surface 1
+                 ...done surface 0
+             Processing Fin: 1 surfaces
+                 ...done surface 0
+             ...done.
+          Skipping derivatives and eigenthings
+          Done operating point
+
+     α=8°, β=0°, φ=0°, V∞=20 m/s
+       Creating source strengths...
+       Calculating doublet strengths...
+       Calculating far field forces...
+       Calculating on-body pressure coefficients...
+       Calculating plane
+          Calculating XFoil viscous drag on the fly...
+             Processing Main Wing: 2 surfaces
+                 ...done surface 1
+                 ...done surface 0
+             Processing Elevator: 2 surfaces
+                 ...done surface 0
+                 ...done surface 1
+             Processing Fin: 1 surfaces
+                 ...done surface 0
+             ...done.
+          Skipping derivatives and eigenthings
+          Done operating point
+
+     α=9°, β=0°, φ=0°, V∞=20 m/s
+       Creating source strengths...
+       Calculating doublet strengths...
+       Calculating far field forces...
+       Calculating on-body pressure coefficients...
+       Calculating plane
+          Calculating XFoil viscous drag on the fly...
+             Processing Main Wing: 2 surfaces
+                 ...done surface 0 - OTF failures:
+                     span pos.    -0.629 m, Cl=  1.31697, Re= 433047
+                     span pos.    -0.454 m, Cl=  1.30151, Re= 477146
+                     span pos.    -0.293 m, Cl=  1.27227, Re= 517673
+                     span pos.    -0.159 m, Cl=  1.23715, Re= 551344
+                 ...done surface 1 - OTF failures:
+                     span pos.     0.629 m, Cl=  1.31697, Re= 433047
+                     span pos.     0.805 m, Cl=  1.30897, Re= 388947
+                     span pos.     0.966 m, Cl=  1.26280, Re= 348420
+
+          Error generating the operating point... discarding
+
+     α=10°, β=0°, φ=0°, V∞=20 m/s
+       Creating source strengths...
+       Calculating doublet strengths...
+       Calculating far field forces...
+       Calculating on-body pressure coefficients...
+       Calculating plane
+          Calculating XFoil viscous drag on the fly...
+             Processing Main Wing: 2 surfaces
+                 ...done surface 0 - OTF failures:
+                     span pos.    -0.629 m, Cl=  1.40036, Re= 433047
+                     span pos.    -0.454 m, Cl=  1.38307, Re= 477146
+                     span pos.    -0.293 m, Cl=  1.35134, Re= 517673
+                     span pos.    -0.159 m, Cl=  1.31360, Re= 551344
+                     span pos.    -0.063 m, Cl=  1.27843, Re= 575432
+                     span pos.    -0.013 m, Cl=  1.25534, Re= 587984
+                 ...done surface 1 - OTF failures:
+                     span pos.     0.629 m, Cl=  1.40036, Re= 433047
+                     span pos.     0.805 m, Cl=  1.39294, Re= 388947
+                     span pos.     0.966 m, Cl=  1.34495, Re= 348420
+                     span pos.     1.196 m, Cl=  1.00907, Re= 290662
+
+          Error generating the operating point... discarding
+
+     α=11°, β=0°, φ=0°, V∞=20 m/s
+       Creating source strengths...
+       Calculating doublet strengths...
+       Calculating far field forces...
+       Calculating on-body pressure coefficients...
+       Calculating plane
+          Calculating XFoil viscous drag on the fly...
+             Processing Main Wing: 2 surfaces
+                 ...done surface 0 - OTF failures:
+                     span pos.    -0.629 m, Cl=  1.48220, Re= 433047
+                     span pos.    -0.454 m, Cl=  1.46309, Re= 477146
+                     span pos.    -0.293 m, Cl=  1.42892, Re= 517673
+                     span pos.    -0.159 m, Cl=  1.38861, Re= 551344
+                     span pos.    -0.063 m, Cl=  1.35120, Re= 575432
+                     span pos.    -0.013 m, Cl=  1.32674, Re= 587984
+                 ...done surface 1 - OTF failures:
+                     span pos.     0.629 m, Cl=  1.48220, Re= 433047
+                     span pos.     0.805 m, Cl=  1.47535, Re= 388947
+                     span pos.     0.966 m, Cl=  1.42559, Re= 348420
+                     span pos.     1.100 m, Cl=  1.30426, Re= 314749
+
+          Error generating the operating point... discarding
+
+     α=12°, β=0°, φ=0°, V∞=20 m/s
+       Creating source strengths...
+       Calculating doublet strengths...
+       Calculating far field forces...
+       Calculating on-body pressure coefficients...
+       Calculating plane
+          Calculating XFoil viscous drag on the fly...
+             Processing Main Wing: 2 surfaces
+                 ...done surface 0 - OTF failures:
+                     span pos.    -0.629 m, Cl=  1.56239, Re= 433047
+                     span pos.    -0.454 m, Cl=  1.54148, Re= 477146
+                     span pos.    -0.293 m, Cl=  1.50492, Re= 517673
+                     span pos.    -0.159 m, Cl=  1.46207, Re= 551344
+                     span pos.    -0.063 m, Cl=  1.42248, Re= 575432
+                     span pos.    -0.013 m, Cl=  1.39667, Re= 587984
+                 ...done surface 1 - OTF failures:
+                     span pos.     0.629 m, Cl=  1.56239, Re= 433047
+                     span pos.     0.805 m, Cl=  1.55610, Re= 388947
+                     span pos.     0.966 m, Cl=  1.50463, Re= 348420
+                     span pos.     1.100 m, Cl=  1.37738, Re= 314749
+
+          Error generating the operating point... discarding
+
+     α=13°, β=0°, φ=0°, V∞=20 m/s
+       Creating source strengths...
+       Calculating doublet strengths...
+       Calculating far field forces...
+       Calculating on-body pressure coefficients...
+       Calculating plane
+          Calculating XFoil viscous drag on the fly...
+             Processing Main Wing: 2 surfaces
+                 ...done surface 0 - OTF failures:
+                     span pos.    -0.629 m, Cl=  1.64082, Re= 433047
+                     span pos.    -0.454 m, Cl=  1.61815, Re= 477146
+                     span pos.    -0.293 m, Cl=  1.57924, Re= 517673
+                     span pos.    -0.159 m, Cl=  1.53392, Re= 551344
+                     span pos.    -0.063 m, Cl=  1.49218, Re= 575432
+                     span pos.    -0.013 m, Cl=  1.46505, Re= 587984
+                 ...done surface 1 - OTF failures:
+                     span pos.     0.629 m, Cl=  1.64082, Re= 433047
+                     span pos.     0.805 m, Cl=  1.63510, Re= 388947
+                     span pos.     0.966 m, Cl=  1.58196, Re= 348420
+                     span pos.     1.100 m, Cl=  1.44893, Re= 314749
+
+          Error generating the operating point... discarding
+
+     α=14°, β=0°, φ=0°, V∞=20 m/s
+       Creating source strengths...
+       Calculating doublet strengths...
+       Calculating far field forces...
+       Calculating on-body pressure coefficients...
+       Calculating plane
+          Calculating XFoil viscous drag on the fly...
+             Processing Main Wing: 2 surfaces
+                 ...done surface 0 - OTF failures:
+                     span pos.    -0.629 m, Cl=  1.71741, Re= 433047
+                     span pos.    -0.454 m, Cl=  1.69300, Re= 477146
+                     span pos.    -0.293 m, Cl=  1.65179, Re= 517673
+                     span pos.    -0.159 m, Cl=  1.60404, Re= 551344
+                     span pos.    -0.063 m, Cl=  1.56021, Re= 575432
+                     span pos.    -0.013 m, Cl=  1.53180, Re= 587984
+                 ...done surface 1 - OTF failures:
+                     span pos.     0.629 m, Cl=  1.71741, Re= 433047
+                     span pos.     0.805 m, Cl=  1.71225, Re= 388947
+                     span pos.     0.966 m, Cl=  1.65748, Re= 348420
+                     span pos.     1.100 m, Cl=  1.51882, Re= 314749
+
+          Error generating the operating point... discarding
+
+
+Done plane task.
+
+Panel analysis completed ... Errors encountered
+
+_____Plane analyses completed_____
+
+
+
+-----Starting boat analyses-----
+
+No xml Boat files to load
+
+Making the analysis pairs (boat, analysis)
+
+Made 0 valid analysis pairs (boat, polar) to run
+
+_____ Boat analyses completed_____
+
+

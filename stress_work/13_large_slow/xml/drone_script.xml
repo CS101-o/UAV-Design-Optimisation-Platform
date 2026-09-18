@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE XFL_SCRIPT>
+<xflscript version="1.0">
+    <Metadata>
+        <Make_project_file>false</Make_project_file>
+        <Polar_text_output_format>CSV</Polar_text_output_format>
+        <Directories>
+            <output_dir>/Users/kaanoktem/Flow5/stress_work/13_large_slow/output</output_dir>
+            <plane_definition_xml_dir>/Users/kaanoktem/Flow5/stress_work/13_large_slow/xml</plane_definition_xml_dir>
+            <plane_analysis_xml_dir>/Users/kaanoktem/Flow5/stress_work/13_large_slow/xml</plane_analysis_xml_dir>
+            <foil_files_dir>/Users/kaanoktem/Flow5/foils</foil_files_dir>
+            <recursive_scan>true</recursive_scan>
+        </Directories>
+        <MultiThreading>
+            <Allow_Multithreading>true</Allow_Multithreading>
+            <Thread_Priority>Normal</Thread_Priority>
+            <Max_threads>4</Max_threads>
+        </MultiThreading>
+        <Double_Precision>true</Double_Precision>
+    </Metadata>
+
+    <Plane_Analysis>
+        <Plane_Analysis_Output>
+            <make_oppoints>false</make_oppoints>
+            <make_oppoints_text_file>false</make_oppoints_text_file>
+            <compute_derivatives>false</compute_derivatives>
+            <make_polars_text_file>true</make_polars_text_file>
+            <export_stl_mesh>false</export_stl_mesh>
+        </Plane_Analysis_Output>
+
+        <Foil_Dat_Files>
+            <Foil_File_Name>e387.dat</Foil_File_Name>
+            <Foil_File_Name>naca0009.dat</Foil_File_Name>
+        </Foil_Dat_Files>
+
+        <Plane_Definition_Files>
+            <Process_All_Files>false</Process_All_Files>
+            <Plane_File_Name>drone_plane.xml</Plane_File_Name>
+        </Plane_Definition_Files>
+
+        <Plane_Analysis_Files>
+            <Process_All_Files>false</Process_All_Files>
+            <Analysis_File_Name>drone_polar.xml</Analysis_File_Name>
+        </Plane_Analysis_Files>
+
+        <Plane_Analysis_Data>
+            <T12_Range>-5, 14, 1</T12_Range>
+        </Plane_Analysis_Data>
+    </Plane_Analysis>
+</xflscript>

@@ -1,0 +1,56 @@
+
+flow5 v7.57
+27.06.2026  14:00:15
+Reading foil .dat files
+   added foil: E387
+
+Making foil analysis list
+No foil analysis requested
+
+
+Available foils:
+   E387
+
+
+
+-----Starting plane analyses-----
+
+Adding planes from the .xml files
+   added the plane: drone_opt from file test_plane.xml
+
+
+Adding the plane analyses from the xml files
+   the analysis test_polar_planform has been added for drone_opt
+
+Making the analysis pairs (plane, analysis)
+   added analysis for (drone_opt, test_polar_planform)
+   Made 1 valid analysis pairs (plane, polar) to run
+
+Launching plane analysis: drone_opt / test_polar_planform
+Initializing task
+
+drone_opt
+test_polar_planform
+
+Checking plane and polar data
+   error: reference chord length is 0m
+   error: reference span length is 0m
+   error: reference area is 0m²
+
+Panel analysis completed ... Errors encountered
+
+_____Plane analyses completed_____
+
+
+
+-----Starting boat analyses-----
+
+No xml Boat files to load
+
+Making the analysis pairs (boat, analysis)
+
+Made 0 valid analysis pairs (boat, polar) to run
+
+_____ Boat analyses completed_____
+
+

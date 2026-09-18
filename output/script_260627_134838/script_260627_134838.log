@@ -1,0 +1,44 @@
+
+flow5 v7.57
+27.06.2026  13:48:38
+Reading foil .dat files
+   added foil: E387
+
+Making foil analysis list
+No foil analysis requested
+
+
+Available foils:
+   E387
+
+
+
+-----Starting plane analyses-----
+
+Adding planes from the .xml files
+      ...missing foil NACA 0009 for plane drone_opt
+      foils not found ...discarding this plane
+
+
+Adding the plane analyses from the xml files
+   the analysis drone_polar has been added for drone_opt
+   Warning: the polar drone_polar is associated to plane drone_opt which does not exist
+
+Making the analysis pairs (plane, analysis)
+   Made 0 valid analysis pairs (plane, polar) to run
+
+_____Plane analyses completed_____
+
+
+
+-----Starting boat analyses-----
+
+No xml Boat files to load
+
+Making the analysis pairs (boat, analysis)
+
+Made 0 valid analysis pairs (boat, polar) to run
+
+_____ Boat analyses completed_____
+
+

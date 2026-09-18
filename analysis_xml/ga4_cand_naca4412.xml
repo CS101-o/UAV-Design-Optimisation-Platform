@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flow5>
+<xflplane version="1.0">
+    <Units>
+        <length_unit_to_meter>1</length_unit_to_meter>
+        <area_unit_to_m2>1</area_unit_to_m2>
+        <mass_unit_to_kg>1</mass_unit_to_kg>
+        <speed_unit_to_ms>1</speed_unit_to_ms>
+        <inertia_unit_to_kgm2>1</inertia_unit_to_kgm2>
+    </Units>
+    <Plane>
+        <Name>GA4-01</Name>
+        <Description>GA4-01 wing=NACA 4412  tail=NACA 0009</Description>
+
+        <Inertia>
+            <Point_Mass>
+                <Tag>Aircraft</Tag>
+                <Mass>1202.0</Mass>
+                <coordinates>0.3657, 0, 0</coordinates>
+            </Point_Mass>
+        </Inertia>
+
+        <!-- MAIN WING -->
+        <wing>
+            <Name>Main Wing</Name>
+            <Type>MAINWING</Type>
+            <Position>0, 0, 0</Position>
+            <Ry_angle>0.000</Ry_angle>
+            <symmetric>true</symmetric>
+            <Two_Sided>true</Two_Sided>
+            <Sections>
+                <Section>
+                    <y_position>0.000000</y_position>
+                    <Chord>1.303885</Chord>
+                    <xOffset>0.000000</xOffset>
+                    <Dihedral>1.500</Dihedral>
+                    <Twist>0.000</Twist>
+                    <x_number_of_panels>9</x_number_of_panels>
+                    <x_panel_distribution>COSINE</x_panel_distribution>
+                    <y_number_of_panels>13</y_number_of_panels>
+                    <y_panel_distribution>COSINE</y_panel_distribution>
+                    <Left_Side_FoilName>NACA 4412</Left_Side_FoilName>
+                    <Right_Side_FoilName>NACA 4412</Right_Side_FoilName>
+                </Section>
+                <Section>
+                    <y_position>6.649812</y_position>
+                    <Chord>0.912719</Chord>
+                    <xOffset>0.097791</xOffset>
+                    <Dihedral>1.500</Dihedral>
+                    <Twist>-2.000</Twist>
+                    <x_number_of_panels>9</x_number_of_panels>
+                    <x_panel_distribution>COSINE</x_panel_distribution>
+                    <y_number_of_panels>0</y_number_of_panels>
+                    <y_panel_distribution>COSINE</y_panel_distribution>
+                    <Left_Side_FoilName>NACA 4412</Left_Side_FoilName>
+                    <Right_Side_FoilName>NACA 4412</Right_Side_FoilName>
+                </Section>
+            </Sections>
+        </wing>
+
+        <!-- HORIZONTAL TAIL -->
+        <wing>
+            <Name>Elevator</Name>
+            <Type>ELEVATOR</Type>
+            <Position>3.87906, 0, -0.350</Position>
+            <Ry_angle>-1.200</Ry_angle>
+            <symmetric>true</symmetric>
+            <Two_Sided>true</Two_Sided>
+            <Sections>
+                <Section>
+                    <y_position>0.000000</y_position>
+                    <Chord>1.212707</Chord>
+                    <xOffset>0.000000</xOffset>
+                    <Dihedral>0.000</Dihedral>
+                    <Twist>0.000</Twist>
+                    <x_number_of_panels>7</x_number_of_panels>
+                    <x_panel_distribution>COSINE</x_panel_distribution>
+                    <y_number_of_panels>9</y_number_of_panels>
+                    <y_panel_distribution>COSINE</y_panel_distribution>
+                    <Left_Side_FoilName>NACA 0009</Left_Side_FoilName>
+                    <Right_Side_FoilName>NACA 0009</Right_Side_FoilName>
+                </Section>
+                <Section>
+                    <y_position>1.910013</y_position>
+                    <Chord>0.485083</Chord>
+                    <xOffset>0.181906</xOffset>
+                    <Dihedral>0.000</Dihedral>
+                    <Twist>0.000</Twist>
+                    <x_number_of_panels>7</x_number_of_panels>
+                    <x_panel_distribution>COSINE</x_panel_distribution>
+                    <y_number_of_panels>0</y_number_of_panels>
+                    <y_panel_distribution>COSINE</y_panel_distribution>
+                    <Left_Side_FoilName>NACA 0009</Left_Side_FoilName>
+                    <Right_Side_FoilName>NACA 0009</Right_Side_FoilName>
+                </Section>
+            </Sections>
+        </wing>
+
+        <!-- VERTICAL FIN -->
+        <wing>
+            <Name>Fin</Name>
+            <Type>FIN</Type>
+            <Position>3.87906, 0, -0.625</Position>
+            <Rx_angle>-90.000</Rx_angle>
+            <Ry_angle>0.000</Ry_angle>
+            <symmetric>false</symmetric>
+            <Two_Sided>false</Two_Sided>
+            <Sections>
+                <Section>
+                    <y_position>0.000000</y_position>
+                    <Chord>1.206566</Chord>
+                    <xOffset>0.000000</xOffset>
+                    <Dihedral>0.000</Dihedral>
+                    <Twist>0.000</Twist>
+                    <x_number_of_panels>7</x_number_of_panels>
+                    <x_panel_distribution>COSINE</x_panel_distribution>
+                    <y_number_of_panels>7</y_number_of_panels>
+                    <y_panel_distribution>COSINE</y_panel_distribution>
+                    <Left_Side_FoilName>NACA 0009</Left_Side_FoilName>
+                    <Right_Side_FoilName>NACA 0009</Right_Side_FoilName>
+                </Section>
+                <Section>
+                    <y_position>1.628865</y_position>
+                    <Chord>0.603283</Chord>
+                    <xOffset>0.150821</xOffset>
+                    <Dihedral>0.000</Dihedral>
+                    <Twist>0.000</Twist>
+                    <x_number_of_panels>7</x_number_of_panels>
+                    <x_panel_distribution>COSINE</x_panel_distribution>
+                    <y_number_of_panels>0</y_number_of_panels>
+                    <y_panel_distribution>COSINE</y_panel_distribution>
+                    <Left_Side_FoilName>NACA 0009</Left_Side_FoilName>
+                    <Right_Side_FoilName>NACA 0009</Right_Side_FoilName>
+                </Section>
+            </Sections>
+        </wing>
+
+    </Plane>
+</xflplane>

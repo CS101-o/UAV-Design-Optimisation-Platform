@@ -1,0 +1,20 @@
+
+flow5 v7.57
+28.06.2026  14:49:06
+Reading foil .dat files
+   added foil: NACA 4412
+   added foil: NACA 0009
+
+Making foil analysis list
+No foil analysis requested
+
+
+Available foils:
+   NACA 0009
+   NACA 4412
+
+
+
+-----Starting plane analyses-----
+
+Adding planes from the .xml files

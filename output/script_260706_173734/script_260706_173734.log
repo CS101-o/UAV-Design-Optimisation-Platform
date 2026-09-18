@@ -1,0 +1,49 @@
+
+flow5 v7.57
+06.07.2026  17:37:34
+Reading foil .dat files
+   added foil: E387
+
+Making foil analysis list
+   added analysis task for  (E387, E387_Re150k)
+
+
+_____Starting foil analysis_____
+
+Running with 4 thread(s)
+
+Found 1 (foil, polar) pairs to analyze.
+
+Starting E387 / E387_Re150k
+
+_____Foil analysis completed_____
+
+Available foils:
+   E387
+
+
+
+-----Starting plane analyses-----
+
+No xml plane files to load
+
+Adding the plane analyses from the xml files
+
+Making the analysis pairs (plane, analysis)
+   Made 0 valid analysis pairs (plane, polar) to run
+
+_____Plane analyses completed_____
+
+
+
+-----Starting boat analyses-----
+
+No xml Boat files to load
+
+Making the analysis pairs (boat, analysis)
+
+Made 0 valid analysis pairs (boat, polar) to run
+
+_____ Boat analyses completed_____
+
+

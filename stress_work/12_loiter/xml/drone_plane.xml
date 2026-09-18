@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flow5>
+<xflplane version="1.0">
+    <Units>
+        <length_unit_to_meter>1</length_unit_to_meter>
+        <area_unit_to_m2>1</area_unit_to_m2>
+        <mass_unit_to_kg>1</mass_unit_to_kg>
+        <speed_unit_to_ms>1</speed_unit_to_ms>
+        <inertia_unit_to_kgm2>1</inertia_unit_to_kgm2>
+    </Units>
+    <Plane>
+        <Name>drone_opt</Name>
+        <Inertia>
+            <Point_Mass>
+                <Tag>Total aircraft</Tag>
+                <Mass>2.5000</Mass>
+                <coordinates>0.1119, 0, 0</coordinates>
+            </Point_Mass>
+        </Inertia>
+
+        <!-- ═══════════════  MAIN WING  ═══════════════ -->
+        <wing>
+            <Name>Main Wing</Name>
+            <Type>MAINWING</Type>
+            <Position>0, 0, 0</Position>
+            <Ry_angle>4.000</Ry_angle>
+            <symmetric>true</symmetric>
+            <Two_Sided>true</Two_Sided>
+            <Sections>
+                <Section>
+                    <y_position>0.000</y_position>
+                    <Chord>0.30093</Chord>
+                    <xOffset>0.000</xOffset>
+                    <Dihedral>2.370</Dihedral>
+                    <Twist>0.000</Twist>
+                    <x_number_of_panels>7</x_number_of_panels>
+                    <x_panel_distribution>COSINE</x_panel_distribution>
+                    <y_number_of_panels>11</y_number_of_panels>
+                    <y_panel_distribution>COSINE</y_panel_distribution>
+                    <Left_Side_FoilName>E387</Left_Side_FoilName>
+                    <Right_Side_FoilName>E387</Right_Side_FoilName>
+                </Section>
+                <Section>
+                    <y_position>0.75000</y_position>
+                    <Chord>0.08378</Chord>
+                    <xOffset>0.05429</xOffset>
+                    <Dihedral>2.370</Dihedral>
+                    <Twist>-3.157</Twist>
+                    <x_number_of_panels>7</x_number_of_panels>
+                    <x_panel_distribution>COSINE</x_panel_distribution>
+                    <y_number_of_panels>0</y_number_of_panels>
+                    <y_panel_distribution>COSINE</y_panel_distribution>
+                    <Left_Side_FoilName>E387</Left_Side_FoilName>
+                    <Right_Side_FoilName>E387</Right_Side_FoilName>
+                </Section>
+            </Sections>
+        </wing>
+
+        <!-- ═══════════════  HORIZONTAL TAIL  ═══════════════ -->
+        <wing>
+            <Name>Elevator</Name>
+            <Type>ELEVATOR</Type>
+            <Position>0.98765, 0, 0</Position>
+            <Ry_angle>2.796</Ry_angle>
+            <symmetric>true</symmetric>
+            <Two_Sided>true</Two_Sided>
+            <Sections>
+                <Section>
+                    <y_position>0.000</y_position>
+                    <Chord>0.13019</Chord>
+                    <xOffset>0.000</xOffset>
+                    <Dihedral>0.000</Dihedral>
+                    <Twist>0.000</Twist>
+                    <x_number_of_panels>5</x_number_of_panels>
+                    <x_panel_distribution>COSINE</x_panel_distribution>
+                    <y_number_of_panels>7</y_number_of_panels>
+                    <y_panel_distribution>COSINE</y_panel_distribution>
+                    <Left_Side_FoilName>NACA 0009</Left_Side_FoilName>
+                    <Right_Side_FoilName>NACA 0009</Right_Side_FoilName>
+                </Section>
+                <Section>
+                    <y_position>0.21354</y_position>
+                    <Chord>0.07249</Chord>
+                    <xOffset>0.01443</xOffset>
+                    <Dihedral>0.000</Dihedral>
+                    <Twist>0.000</Twist>
+                    <x_number_of_panels>5</x_number_of_panels>
+                    <x_panel_distribution>COSINE</x_panel_distribution>
+                    <y_number_of_panels>0</y_number_of_panels>
+                    <y_panel_distribution>COSINE</y_panel_distribution>
+                    <Left_Side_FoilName>NACA 0009</Left_Side_FoilName>
+                    <Right_Side_FoilName>NACA 0009</Right_Side_FoilName>
+                </Section>
+            </Sections>
+        </wing>
+
+        <!-- ═══════════════  VERTICAL FIN  ═══════════════
+             Root lifted +0.03 m clear of the elevator surface: QUADS thick
+             meshing cannot handle intersecting bodies — a fin embedded in
+             the elevator produces spurious, incidence-dependent pitching
+             moments (verified empirically). -->
+        <wing>
+            <Name>Fin</Name>
+            <Type>FIN</Type>
+            <Position>0.98765, 0, 0.030</Position>
+            <Rx_angle>-90.000</Rx_angle>
+            <Ry_angle>0.000</Ry_angle>
+            <symmetric>false</symmetric>
+            <Two_Sided>false</Two_Sided>
+            <Sections>
+                <Section>
+                    <y_position>0.000</y_position>
+                    <Chord>0.16881</Chord>
+                    <xOffset>0.000</xOffset>
+                    <Dihedral>0.000</Dihedral>
+                    <Twist>0.000</Twist>
+                    <x_number_of_panels>5</x_number_of_panels>
+                    <x_panel_distribution>COSINE</x_panel_distribution>
+                    <y_number_of_panels>5</y_number_of_panels>
+                    <y_panel_distribution>COSINE</y_panel_distribution>
+                    <Left_Side_FoilName>NACA 0009</Left_Side_FoilName>
+                    <Right_Side_FoilName>NACA 0009</Right_Side_FoilName>
+                </Section>
+                <Section>
+                    <y_position>0.22789</y_position>
+                    <Chord>0.08440</Chord>
+                    <xOffset>0.02110</xOffset>
+                    <Dihedral>0.000</Dihedral>
+                    <Twist>0.000</Twist>
+                    <x_number_of_panels>5</x_number_of_panels>
+                    <x_panel_distribution>COSINE</x_panel_distribution>
+                    <y_number_of_panels>0</y_number_of_panels>
+                    <y_panel_distribution>COSINE</y_panel_distribution>
+                    <Left_Side_FoilName>NACA 0009</Left_Side_FoilName>
+                    <Right_Side_FoilName>NACA 0009</Right_Side_FoilName>
+                </Section>
+            </Sections>
+        </wing>
+
+    </Plane>
+</xflplane>

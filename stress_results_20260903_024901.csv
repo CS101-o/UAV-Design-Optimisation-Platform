@@ -1,0 +1,121 @@
+label,status,LD,n_calls,arm_ok,ld_ok,elapsed_s,AR,taper,tail_arm,fuse_len,SHT_frac,mtow,speed,loading,rstate,error
+base,ERROR,nan,0,False,False,0.8,0,0,0,0,0,3.0,20.0,120.0,42," File ""/Users/kaanoktem/Flow5/flow5_bo_optimizer.py"", line 199, in run_flow5_bo
+    result = gp_minimize(
+  File ""/Users/kaanoktem/Library/Python/3.9/lib/python/site-packages/skopt/optimizer/gp.py"", line 281, in gp_minimize
+    return base_minimize(
+  File ""/Users/kaanoktem/Library/Python/3.9/lib/python/site-packages/skopt/optimizer/base.py"", line 268, in base_minimize
+    raise ValueError(""Expected `n_calls` >= %d, got %d"" % (required_calls, n_calls))
+ValueError: Expected `n_calls` >= 6, got 5
+"
+light_slow,ERROR,nan,0,False,False,0.0,0,0,0,0,0,1.5,15.0,80.0,42," File ""/Users/kaanoktem/Flow5/flow5_bo_optimizer.py"", line 199, in run_flow5_bo
+    result = gp_minimize(
+  File ""/Users/kaanoktem/Library/Python/3.9/lib/python/site-packages/skopt/optimizer/gp.py"", line 281, in gp_minimize
+    return base_minimize(
+  File ""/Users/kaanoktem/Library/Python/3.9/lib/python/site-packages/skopt/optimizer/base.py"", line 268, in base_minimize
+    raise ValueError(""Expected `n_calls` >= %d, got %d"" % (required_calls, n_calls))
+ValueError: Expected `n_calls` >= 6, got 5
+"
+light_fast,ERROR,nan,0,False,False,0.0,0,0,0,0,0,1.5,25.0,120.0,42," File ""/Users/kaanoktem/Flow5/flow5_bo_optimizer.py"", line 199, in run_flow5_bo
+    result = gp_minimize(
+  File ""/Users/kaanoktem/Library/Python/3.9/lib/python/site-packages/skopt/optimizer/gp.py"", line 281, in gp_minimize
+    return base_minimize(
+  File ""/Users/kaanoktem/Library/Python/3.9/lib/python/site-packages/skopt/optimizer/base.py"", line 268, in base_minimize
+    raise ValueError(""Expected `n_calls` >= %d, got %d"" % (required_calls, n_calls))
+ValueError: Expected `n_calls` >= 6, got 5
+"
+heavy_slow,ERROR,nan,0,False,False,0.0,0,0,0,0,0,5.0,16.0,90.0,42," File ""/Users/kaanoktem/Flow5/flow5_bo_optimizer.py"", line 199, in run_flow5_bo
+    result = gp_minimize(
+  File ""/Users/kaanoktem/Library/Python/3.9/lib/python/site-packages/skopt/optimizer/gp.py"", line 281, in gp_minimize
+    return base_minimize(
+  File ""/Users/kaanoktem/Library/Python/3.9/lib/python/site-packages/skopt/optimizer/base.py"", line 268, in base_minimize
+    raise ValueError(""Expected `n_calls` >= %d, got %d"" % (required_calls, n_calls))
+ValueError: Expected `n_calls` >= 6, got 5
+"
+heavy_fast,ERROR,nan,0,False,False,0.0,0,0,0,0,0,5.0,28.0,150.0,42," File ""/Users/kaanoktem/Flow5/flow5_bo_optimizer.py"", line 199, in run_flow5_bo
+    result = gp_minimize(
+  File ""/Users/kaanoktem/Library/Python/3.9/lib/python/site-packages/skopt/optimizer/gp.py"", line 281, in gp_minimize
+    return base_minimize(
+  File ""/Users/kaanoktem/Library/Python/3.9/lib/python/site-packages/skopt/optimizer/base.py"", line 268, in base_minimize
+    raise ValueError(""Expected `n_calls` >= %d, got %d"" % (required_calls, n_calls))
+ValueError: Expected `n_calls` >= 6, got 5
+"
+hi_loading,ERROR,nan,0,False,False,0.0,0,0,0,0,0,3.0,20.0,160.0,42," File ""/Users/kaanoktem/Flow5/flow5_bo_optimizer.py"", line 199, in run_flow5_bo
+    result = gp_minimize(
+  File ""/Users/kaanoktem/Library/Python/3.9/lib/python/site-packages/skopt/optimizer/gp.py"", line 281, in gp_minimize
+    return base_minimize(
+  File ""/Users/kaanoktem/Library/Python/3.9/lib/python/site-packages/skopt/optimizer/base.py"", line 268, in base_minimize
+    raise ValueError(""Expected `n_calls` >= %d, got %d"" % (required_calls, n_calls))
+ValueError: Expected `n_calls` >= 6, got 5
+"
+lo_loading,ERROR,nan,0,False,False,0.0,0,0,0,0,0,3.0,20.0,80.0,42," File ""/Users/kaanoktem/Flow5/flow5_bo_optimizer.py"", line 199, in run_flow5_bo
+    result = gp_minimize(
+  File ""/Users/kaanoktem/Library/Python/3.9/lib/python/site-packages/skopt/optimizer/gp.py"", line 281, in gp_minimize
+    return base_minimize(
+  File ""/Users/kaanoktem/Library/Python/3.9/lib/python/site-packages/skopt/optimizer/base.py"", line 268, in base_minimize
+    raise ValueError(""Expected `n_calls` >= %d, got %d"" % (required_calls, n_calls))
+ValueError: Expected `n_calls` >= 6, got 5
+"
+fast,ERROR,nan,0,False,False,0.0,0,0,0,0,0,3.0,30.0,130.0,42," File ""/Users/kaanoktem/Flow5/flow5_bo_optimizer.py"", line 199, in run_flow5_bo
+    result = gp_minimize(
+  File ""/Users/kaanoktem/Library/Python/3.9/lib/python/site-packages/skopt/optimizer/gp.py"", line 281, in gp_minimize
+    return base_minimize(
+  File ""/Users/kaanoktem/Library/Python/3.9/lib/python/site-packages/skopt/optimizer/base.py"", line 268, in base_minimize
+    raise ValueError(""Expected `n_calls` >= %d, got %d"" % (required_calls, n_calls))
+ValueError: Expected `n_calls` >= 6, got 5
+"
+slow,ERROR,nan,0,False,False,0.0,0,0,0,0,0,3.0,14.0,90.0,42," File ""/Users/kaanoktem/Flow5/flow5_bo_optimizer.py"", line 199, in run_flow5_bo
+    result = gp_minimize(
+  File ""/Users/kaanoktem/Library/Python/3.9/lib/python/site-packages/skopt/optimizer/gp.py"", line 281, in gp_minimize
+    return base_minimize(
+  File ""/Users/kaanoktem/Library/Python/3.9/lib/python/site-packages/skopt/optimizer/base.py"", line 268, in base_minimize
+    raise ValueError(""Expected `n_calls` >= %d, got %d"" % (required_calls, n_calls))
+ValueError: Expected `n_calls` >= 6, got 5
+"
+med_heavy,ERROR,nan,0,False,False,0.0,0,0,0,0,0,4.0,22.0,130.0,42," File ""/Users/kaanoktem/Flow5/flow5_bo_optimizer.py"", line 199, in run_flow5_bo
+    result = gp_minimize(
+  File ""/Users/kaanoktem/Library/Python/3.9/lib/python/site-packages/skopt/optimizer/gp.py"", line 281, in gp_minimize
+    return base_minimize(
+  File ""/Users/kaanoktem/Library/Python/3.9/lib/python/site-packages/skopt/optimizer/base.py"", line 268, in base_minimize
+    raise ValueError(""Expected `n_calls` >= %d, got %d"" % (required_calls, n_calls))
+ValueError: Expected `n_calls` >= 6, got 5
+"
+med_light,ERROR,nan,0,False,False,0.0,0,0,0,0,0,2.0,18.0,100.0,42," File ""/Users/kaanoktem/Flow5/flow5_bo_optimizer.py"", line 199, in run_flow5_bo
+    result = gp_minimize(
+  File ""/Users/kaanoktem/Library/Python/3.9/lib/python/site-packages/skopt/optimizer/gp.py"", line 281, in gp_minimize
+    return base_minimize(
+  File ""/Users/kaanoktem/Library/Python/3.9/lib/python/site-packages/skopt/optimizer/base.py"", line 268, in base_minimize
+    raise ValueError(""Expected `n_calls` >= %d, got %d"" % (required_calls, n_calls))
+ValueError: Expected `n_calls` >= 6, got 5
+"
+sprint,ERROR,nan,0,False,False,0.0,0,0,0,0,0,2.5,28.0,140.0,42," File ""/Users/kaanoktem/Flow5/flow5_bo_optimizer.py"", line 199, in run_flow5_bo
+    result = gp_minimize(
+  File ""/Users/kaanoktem/Library/Python/3.9/lib/python/site-packages/skopt/optimizer/gp.py"", line 281, in gp_minimize
+    return base_minimize(
+  File ""/Users/kaanoktem/Library/Python/3.9/lib/python/site-packages/skopt/optimizer/base.py"", line 268, in base_minimize
+    raise ValueError(""Expected `n_calls` >= %d, got %d"" % (required_calls, n_calls))
+ValueError: Expected `n_calls` >= 6, got 5
+"
+loiter,ERROR,nan,0,False,False,0.0,0,0,0,0,0,2.5,14.0,85.0,42," File ""/Users/kaanoktem/Flow5/flow5_bo_optimizer.py"", line 199, in run_flow5_bo
+    result = gp_minimize(
+  File ""/Users/kaanoktem/Library/Python/3.9/lib/python/site-packages/skopt/optimizer/gp.py"", line 281, in gp_minimize
+    return base_minimize(
+  File ""/Users/kaanoktem/Library/Python/3.9/lib/python/site-packages/skopt/optimizer/base.py"", line 268, in base_minimize
+    raise ValueError(""Expected `n_calls` >= %d, got %d"" % (required_calls, n_calls))
+ValueError: Expected `n_calls` >= 6, got 5
+"
+large_slow,ERROR,nan,0,False,False,0.0,0,0,0,0,0,5.0,14.0,80.0,42," File ""/Users/kaanoktem/Flow5/flow5_bo_optimizer.py"", line 199, in run_flow5_bo
+    result = gp_minimize(
+  File ""/Users/kaanoktem/Library/Python/3.9/lib/python/site-packages/skopt/optimizer/gp.py"", line 281, in gp_minimize
+    return base_minimize(
+  File ""/Users/kaanoktem/Library/Python/3.9/lib/python/site-packages/skopt/optimizer/base.py"", line 268, in base_minimize
+    raise ValueError(""Expected `n_calls` >= %d, got %d"" % (required_calls, n_calls))
+ValueError: Expected `n_calls` >= 6, got 5
+"
+small_fast,ERROR,nan,0,False,False,0.0,0,0,0,0,0,1.5,28.0,140.0,42," File ""/Users/kaanoktem/Flow5/flow5_bo_optimizer.py"", line 199, in run_flow5_bo
+    result = gp_minimize(
+  File ""/Users/kaanoktem/Library/Python/3.9/lib/python/site-packages/skopt/optimizer/gp.py"", line 281, in gp_minimize
+    return base_minimize(
+  File ""/Users/kaanoktem/Library/Python/3.9/lib/python/site-packages/skopt/optimizer/base.py"", line 268, in base_minimize
+    raise ValueError(""Expected `n_calls` >= %d, got %d"" % (required_calls, n_calls))
+ValueError: Expected `n_calls` >= 6, got 5
+"
